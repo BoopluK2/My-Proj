@@ -33,14 +33,25 @@ export const Navbar = () => {
             flex
             items-center
             gap-[10px]
+            
         ">
-           <img src={logo} alt="logo" /> 
+           <img src={logo} alt="logo" className='
+            object-cover
+            w-10
+            h-10
+           ' /> 
            <p className='
-              text-[#171717] 
-                text-[38px]
-
+                w-30
+                h-10
+                border-solid border-2 border-sky-500
+                rounded-full
+                p-1 px-2
+                font-bold
+              text-[#ff4141]
+                text-5
+                
             '>
-                  TOP-Mebel
+                  App-Shop
             </p>
         </div>
         <ul className="
@@ -48,7 +59,7 @@ export const Navbar = () => {
           items-center
           list-none
           gap-[50px]
-          text-[#626262]
+          text-sky-500
           text-[20px]
           font-[500]
         ">
@@ -63,7 +74,7 @@ export const Navbar = () => {
                 
                 onClick={()=> {setMenu("shop")}}
               >
-                <Link to="/" >Shop</Link> {menu==="shop"?test:""} 
+                <Link to="/" >Одежда</Link> {menu==="shop"?test:""} 
               </li>
               <li className='
                 flex
@@ -74,7 +85,7 @@ export const Navbar = () => {
                 cursor-pointer'
                 onClick={()=> {setMenu("mens")}}
               >
-                <Link to="/mens">Men</Link> {menu==="mens"?test:""} 
+                <Link to="/mens">Мужская</Link> {menu==="mens"?test:""} 
               </li>
               <li className='
                 flex
@@ -85,7 +96,7 @@ export const Navbar = () => {
                 cursor-pointer'
                 onClick={()=> {setMenu("womens")}}
                 >
-                <Link to="/womens">Women</Link> {menu==="womens"?test:""} 
+                <Link to="/womens">Женская</Link> {menu==="womens"?test:""} 
               </li>
               <li className='
                 flex
@@ -96,7 +107,7 @@ export const Navbar = () => {
                 cursor-pointer'
                 onClick={()=> {setMenu("kids")}}
                 >
-                <Link to="/kids">Kids</Link> {menu==="kids"?test:""} 
+                <Link to="/kids">Детская</Link> {menu==="kids"?test:""} 
               </li>
         </ul>
         <div className="
@@ -106,23 +117,26 @@ export const Navbar = () => {
         ">
           <Link to="/login">
             <button className='
-              w-[157px]
-              h-[58px]
+              h-10
+              px-4
               outline-none
               border-4
               border-solid
               rounded-[75px]
-              border-[#7a7a7a]
+              border-sky-500
               text-[#515151]
-              text-[20px]
+              text-5
               font-[500]
               bg-white
               cursor-pointer
               border-inherit
               active:bg-[#f3f3f3]
-            '>Login</button></Link>
+            '>Войти</button></Link>
             <Link to="/cart">
-              <img src={cart_icon} alt="cart" />
+              <img src={cart_icon} alt="cart" className='
+                object-cover
+                w-10 h-10
+              ' />
             </Link>
             <div className='
                 w-[22px]
