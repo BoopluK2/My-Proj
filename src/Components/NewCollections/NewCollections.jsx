@@ -7,21 +7,22 @@ const NewCollections = () => {
   return (
     <div className='
         flex
-        flex-col
+        flex flex-col
         items-center
         gap-[10px]
         h=[90vh]
+        bg-gradient-to-b from-[#0248ca44] to-slate-100
     '>
         <h1 className='
-            text-[#171717]
+            text-sky-500
             text-[50px]
             font-[600]
         '>
-            NEW COLLECTIONS
+            НОВЫЕ КОЛЛЕКЦИИ
         </h1>
         <hr className='
             w-[200px] h-[6px] 
-            rounded-[10px] bg-[#252525]' />
+            rounded-[10px] bg-sky-500' />
         <div className="
              grid grid-cols-4 
              mt-[50px] 

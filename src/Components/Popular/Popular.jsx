@@ -6,22 +6,23 @@ import Item from '../Item/Item';
 const Popular = () => {
   return (
     <div className='
+        bg-gradient-to-b from-[#e28a8e] to-slate-100
         flex
-        flex-col
+        flex flex-col
         items-center
         gap-[10px]
-        h=[90vh]
+        h=[100vh]
     '>
         <h1 className='
-            text-[#171717]
+            text-sky-500
             text-[50px]
             font-[600]
         '>
-            POPULAR IN WOMEN
+            ПОПУЛЯРНО У ЖЕНЩИН
         </h1>
         <hr className='
             w-[200px] h-[6px] 
-            rounded-[10px] bg-[#252525]'  />
+            rounded-[10px] bg-sky-500'  />
         <div className='
             mt-[50px]
             flex

@@ -2,42 +2,43 @@ import React from 'react'
 
 const NewsLetter = () => {
   return (
-    <div className='
+    <div className=' bg-gradient-to-b from-slate-100 to-slate-100 py-[80px]'>
+        <div className='
+        rounded-t-[50px]
         w-[65%]
         h-[40vh]
         flex
-        flex-col
+        flex flex-col
         items-center
         m-auto
-        p-[0px_140px]
         mb-[150px]
-        mt-[50px]
-        bg-gradient-to-b from-[#fde1ff] to-[#e1ffea22]
+        bg-gradient-to-b from-[#e28a8e] to-slate-100
         gap-[30px]
     '>
         <h1 className='
-            text-[#454545]
-            text-[55px]
+            text-sky-500
+            text-[40px]
             font-[600]
+            mt-9
         '>
-            Get Exclusive Ofeers On Your Email
+            Получите эксклюзивные предложения на свою электронную почту
         </h1>
         <p className='
             text-[#454545]
             text-[20px]
 
         '>
-            Subscribe to our newletter and stay updated
+            Подпишитесь на нашу рассылку и будьте в курсе
         </p>
         <div className='
             flex
             items-center
-            justify-center
+            flex justify-center
             bg-white
             w-[730px]
             h-[70px]
             rounded-[80px]
-            border-solid border-[1px] border-[#e3e3e3]
+            border-solid border-[1px] border-[#e3e3e3] border border
         '>
             <input className='
                 w-[500px]
@@ -60,6 +61,7 @@ const NewsLetter = () => {
             '>
                 Subscride
             </button>
+            </div>
         </div>
     </div>
   )

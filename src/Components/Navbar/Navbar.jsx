@@ -25,6 +25,7 @@ export const Navbar = () => {
 
   return (
     <div className='
+        bg-slate-100
         flex 
         justify-around	
         p-[16px] 
@@ -124,7 +125,7 @@ export const Navbar = () => {
               border-solid
               rounded-[75px]
               border-sky-500
-              text-[#515151]
+              text-sky-500
               text-5
               font-[500]
               bg-white
