@@ -6,23 +6,22 @@ const DescriptionBox = () => {
         m-[7.5rem_10.625rem]
 
     '>
-        <div className='
-            flex 
-        '>
+        <div className='flex '>
             <div className='
                 flex items-center justify-center 
                 text-base font-semibold 
                 w-[10.6875rem]
                 h-[4.375rem]
                 border-solid border border-[#d0d0d0]
-            '>Description</div>
+            '>Описание</div>
             <div className='
                 flex items-center justify-center 
                 text-base font-semibold 
                 w-[10.6875rem]
                 h-[4.375rem]
                 border-solid border border-[#d0d0d0]
-            '>Reviews (122)</div>
+            '>
+            Отзывы (122)</div>
         </div>
         <div className='
             flex flex-col gap-[1.5625rem]
