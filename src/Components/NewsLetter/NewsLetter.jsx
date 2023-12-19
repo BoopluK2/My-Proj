@@ -21,10 +21,19 @@ const NewsLetter = () => {
             font-[600]
             mt-9
         '>
-            Получите эксклюзивные предложения на свою электронную почту
+            Получите эксклюзивные предложения
         </h1>
         <p className='
-            text-[#454545]
+            flex 
+            items-center 
+            text-sky-500
+            text-[40px]
+            font-[600]
+            '>
+                На свою электронную почту
+            </p>
+        <p className='
+            text-sky-500
             text-[20px]
 
         '>
@@ -48,18 +57,18 @@ const NewsLetter = () => {
                 text-[#616161]
                 font-[Poppins]
                 text-[16px]     
-            ' type="email" placeholder='You Email id' />
+            ' type="email" placeholder='Ваш адрес электронной почты' />
             <button className='
                 w-[210px]
                 h-[70px]
                 rounded-[80px]
-                bg-black
+                bg-sky-500
                 text-white
                 text-[16px]
                 cursor-pointer
 
             '>
-                Subscride
+                Подписаться
             </button>
             </div>
         </div>

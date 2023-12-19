@@ -16,12 +16,12 @@ const LoginSignup = () => {
           p-[2.5rem_3.75rem]
 
         ">
-            <h1 className='m-[1.25rem_0rem]'>
-              Sing Up
+            <h1 className='m-[1.25rem_0rem] text-sky-500'>
+             Регистрация
             </h1>
             <div className="
               flex
-              flex-col
+              flex flex-col
               gap-[1.8125rem]
               mt-[1.875rem]
             ">
@@ -29,39 +29,39 @@ const LoginSignup = () => {
                   h-[4.5rem]
                   w-full
                   pl-[1.25rem]
-                  border-solid border-[.125rem] border-[#c9c9c9]
+                  border-solid border-[.125rem] border-sky-500 border border
                   outline-none
                   text-[#5c5c5c]
                   text-[1.125rem]
                   rounded-lg
 
-                ' type="text" placeholder='You Name' />
+                ' type="text" placeholder='Твое имя' />
                 <input className='
                   h-[4.5rem]
                   w-full
                   pl-[1.25rem]
-                  border-solid border-[.125rem] border-[#c9c9c9]
+                  border-solid border-[.125rem] border-sky-500 border border
                   outline-none
                   text-[#5c5c5c]
                   text-[1.125rem]
                   rounded-lg
-                ' type="email" placeholder='Email Address' />
+                ' type="email" placeholder='Адрес электронной почты' />
                 <input className='
                   h-[4.5rem]
                   w-full
                   pl-[1.25rem]
-                  border-solid border-[.125rem] border-[#c9c9c9]
+                  border-solid border-[.125rem] border-sky-500 border border
                   outline-none
                   text-[#5c5c5c]
                   text-[1.125rem]
                   rounded-lg
-                ' type="parswword" placeholder='Password' />
+                ' type="parswword" placeholder='Пароль' />
             </div>
             <button className='
               w-full
               h-[4.5rem]
               text-white
-              bg-[#ff4141]
+              bg-sky-500
               mt-[1.875rem]
               border-none
               text-[1.5rem]
@@ -69,34 +69,33 @@ const LoginSignup = () => {
               cursor-pointer
 
             '>
-                Continue
+                Регистрация
             </button>
             <p className="
               mt-[1.25rem]
-              text-[#5c5c5c]
+              text-sky-500
               text-[1.125rem]
               font-medium
             ">
-                Already have an account? 
+                У вас уже есть аккаунт?
                 <span className='
                   text-[#ff4141]
                   font-semibold
                 '>
-                    Login here
+                    Войти здесь
                 </span>
             </p>
             <div className="
               flex
-              items-center
+              flex items-center
               mt-[1.5625rem]
               gap-[1.25rem]
-              text-[#5c5c5c]
+              text-sky-500
               font-medium
-              text-lg
             ">
                 <input type="checkbox" name="" id="" />
                 <p>
-                  By continuing, i agree to the terms of use & privacy policy.
+                Продолжая, я соглашаюсь с условиями использования и политикой конфиденциальности.
                 </p>
             </div>
         </div>

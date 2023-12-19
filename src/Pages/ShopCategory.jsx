@@ -20,20 +20,20 @@ const ShopCategory = (props) => {
         flex
         justify-between
         m-[0px_170px]
-        items-center
+        flex items-center
       ">
         <p className='font-[600]'>
-          <span className='font-[600]'>Showing 1-12</span> out of 36 products
+          <span className='font-[600]'>Показаны 1-12</span> из 36 товаров
         </p>
         <div className="
           flex
-          items-center
+          flex items-center
           justify-between
           p-[10px_20px]
           rounded-[40px]
-          border-solid border-[1px] border-[#888]
+          border-solid border-[1px] border-[#888] border border
         ">
-          Sort by <img src={dropdown_icon} alt="" />
+          Сортировать по <img src={dropdown_icon} alt="" />
         </div>
       </div>
       <div className="
@@ -58,7 +58,7 @@ const ShopCategory = (props) => {
         </div>
         <div className='
           flex
-          justify-center
+          flex justify-center
           items-center
           m-[150px_auto]
           w-[233px]
@@ -69,7 +69,7 @@ const ShopCategory = (props) => {
           text-[18px]
           font-[500]
         '>
-          Explore More
+          Узнайте больше
         </div>
     </div>
   )
