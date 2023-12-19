@@ -21,7 +21,7 @@ const ProductDisplay = (prosp) => {
         ">
             <div className="
                 flex
-                flex-col
+                flex flex-col
                 gap-[1rem]
             ">
                 <img className='h-[10.1875rem]' src={product.image} alt="" />
@@ -74,24 +74,20 @@ const ProductDisplay = (prosp) => {
                 ">
                     ${product.old_price}
                 </div>
-                <div className="
-                    text-red-500
-
-                ">
+                <div className="text-red-500 ">
                     ${product.new_price}
                 </div>
             </div>
             <div className="9">
-                Laylo pompa
             </div>
             <div className="">
                 <h1 className='
                     mt-[3.4375rem]
-                    text-[#656565]
+                    text-sky-500
                     text-xl
                     font-semilod
                 '>
-                    Select Size
+                    Выберите размер
                 </h1>
                 <div className="
                     flex
@@ -101,7 +97,7 @@ const ProductDisplay = (prosp) => {
                     <div className='
                         p-[1.125rem_1.5rem]
                         bg-[#fbfbfb]
-                        border-solid border-[1px] border-[#ebebeb]
+                        border-solid border-[1px] border-[#ebebeb] border border
                         rounded-[.1875rem]
                         cursor-pointer
                     '>
@@ -110,7 +106,7 @@ const ProductDisplay = (prosp) => {
                     <div className='
                         p-[1.125rem_1.5rem]
                         bg-[#fbfbfb]
-                        border-solid border-[1px] border-[#ebebeb]
+                        border-solid border-[1px] border-[#ebebeb] border border
                         rounded-[.1875rem]
                         cursor-pointer
                     '>
@@ -119,7 +115,7 @@ const ProductDisplay = (prosp) => {
                     <div className='
                         p-[1.125rem_1.5rem]
                         bg-[#fbfbfb]
-                        border-solid border-[1px] border-[#ebebeb]
+                        border-solid border-[1px] border-[#ebebeb] border border
                         rounded-[.1875rem]
                         cursor-pointer
                     '>
@@ -128,7 +124,7 @@ const ProductDisplay = (prosp) => {
                     <div className='
                         p-[1.125rem_1.5rem]
                         bg-[#fbfbfb]
-                        border-solid border-[1px] border-[#ebebeb]
+                        border-solid border-[1px] border-[#ebebeb] border border
                         rounded-[.1875rem]
                         cursor-pointer
                     '>
@@ -137,7 +133,7 @@ const ProductDisplay = (prosp) => {
                     <div className='
                         p-[1.125rem_1.5rem]
                         bg-[#fbfbfb]
-                        border-solid border-[1px] border-[#ebebeb]
+                        border-solid border-[1px] border-[#ebebeb] border border
                         rounded-[.1875rem]
                         cursor-pointer
                     '>
@@ -157,23 +153,19 @@ const ProductDisplay = (prosp) => {
             '
                 onClick={()=>{addToCart(product.id)}}
             >
-                ADD TO CART
+                ДОБАВИТЬ В КОРЗИНУ
             </button>
             <p className="mt-[.625rem]">
-                <span className='
-                    font-semibold
-                '>
+                <span className='font-semibold '>
                     Caterogi :
                 </span>
-                Women, T-Shirt, Crop Top
+                Женщины, Футболка, Укороченный топ
             </p>
             <p className="mt-[.625rem]">
-                <span className='
-                    font-semibold
-                '>
+                <span className='font-semibold '>
                     Tags :
                 </span>
-                Modern, Latest
+                Современный, Новейший
             </p>
         </div>
     </div>
